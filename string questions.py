@@ -60,8 +60,17 @@
 
 # 5 question
 
-string=input('enter your string\t')
-sub=input('enter your sub-string\t')
+# string=input('enter your string\t')
+# sub=input('enter your sub-string\t')
 
-index=string.index(sub)
-print(index)
+# index=string.index(sub)
+# print(index)
+
+# 6 Question
+
+# string=input('Enter the String\t')
+x='abcd abcd abcd abcd'
+
+slice=x[0]+x[1:].replace(x[0],'$')
+print(slice)
+
