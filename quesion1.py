@@ -110,11 +110,11 @@ while True:
         updatechoice = input('Enter your choice (0-3): ')
 
         if updatechoice == '1':
-            x.update({'name' : input('Enter the Name to Update')})
+            x.update({'name' : input('Enter the Name to Update: ')})
             print('Name updated to :',x['name'])
 
         elif updatechoice == '2':
-            x.update({'email' : input('Enter the Email to Update')})
+            x.update({'email' : input('Enter the Email to Update: ')})
             print('Update Enail :',x['email'])
 
         elif updatechoice == '3':
@@ -189,7 +189,7 @@ while True:
             print("Invalid choice! Please select between 0-2.")
 
     elif choices == '0':
-        continue
+        break
 
     else:
         print("Invalid choice! Please select between 0-4.")
